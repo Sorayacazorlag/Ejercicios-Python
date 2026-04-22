@@ -1,3 +1,4 @@
+#Pide a la usuaria que introduzca una frase
 frase = input("Introduzca una frase" )
 
 longitud = len(frase)
