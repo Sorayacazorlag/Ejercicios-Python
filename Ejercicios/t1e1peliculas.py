@@ -5,6 +5,13 @@ genre = "Drama"
 duration = 90
 awards = True
 
+print("Película favorita", favourite_film)
+print("Director", film_director)
+print("Año de lanzamiento", release_year)
+print("Género", genre)
+print("Duración", duration)
+print("Premios", awards)
+
 print("Favourite film", favourite_film)
 print("Director", film_director)
 print("Release year", release_year)
