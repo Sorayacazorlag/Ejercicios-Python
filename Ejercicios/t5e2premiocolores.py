@@ -4,7 +4,7 @@
 
 color = input("Introduce un color: ").lower()
 
-for i in range(color):
+for i in range(5):
     if color == azul:
         break
     print("¡HA CONSEGUIDO EL PREMIO!")
