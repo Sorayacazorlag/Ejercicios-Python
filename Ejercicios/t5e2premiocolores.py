@@ -2,10 +2,13 @@
 #Si la usuaria introduce el color azul, muestra el premio conseguido.
 #Si no, dile que pruebe otro color
 
-color = input("Introduce un color: ").lower()
-
 for i in range(5):
-    if color == azul:
-        break
-    print("¡HA CONSEGUIDO EL PREMIO!")
+    color = input("Introduce un color: ").lower()
+
+    if color == "azul":
+        print("¡HA CONSEGUIDO EL PREMIO!")
+        break;
+    else:
+        print("Prueba otro color")
+
 
